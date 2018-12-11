@@ -1,0 +1,129 @@
+
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+
+body {
+  margin: 20px;
+  background-color: white; 
+  position: relative;
+  font-size:  20px;
+
+}
+
+.header{
+	font-family: 'Permanent Marker', cursive;
+	font-size:  50px;
+	text-align: center;
+	color: black;
+}
+
+#noodle_running  {
+	position: fixed;
+	top:0;
+	right:40px;
+	-webkit-transition: height 2s; /* For Safari 3.1 to 6.0 */
+  	transition: height 2s;
+}
+	#noodle_running img:hover {
+  	height: 600px;
+	}/*this make noodle bouncy*/
+
+
+.noodle_running1  {
+	position: fixed;
+	bottom:0px;
+	left:40px;
+	-webkit-transition: height 2s; /* For Safari 3.1 to 6.0 */
+  	transition: height 2s;
+}
+	.noodle_running1 img:hover {
+  	height: 600px;
+	}/*this make noodle bouncy*/
+
+
+
+.box-1{
+	padding-bottom:50px;
+	position: relative;
+	width: 60%
+}
+	.image-1{
+		opacity: 1;
+	  	display: block;
+	  	width: 100%;
+	  	height: auto;
+	  	transition: .5s ease;
+	  	backface-visibility: hidden;
+}
+	.middle-1 {
+  	transition: .5s ease;
+  	opacity: 0;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	-ms-transform: translate(-50%, -50%);
+  	text-align: center;
+}
+
+	.box-1:hover .image-1{
+	opacity: 0.3;
+}
+	.box-1:hover .middle-1{
+		opacity: 1;
+	}
+	.text-1{
+		background-color: black;
+  		color: white;
+		font-size: 20px;
+		padding: 20px 40px;
+		
+	}
+
+.box-2{
+	text-align: center;
+	padding-bottom: 50px;
+	position: relative;/*put noodle behind image*/
+
+}
+
+
+.box-3{
+	text-align: center;
+	padding-bottom: 50px;
+	position: relative;
+}
+
+
+.box-4{
+	text-align: center;
+	padding-bottom:50px;
+	position: relative;
+}
+
+.box-5{
+	text-align: center;
+	padding-bottom:50px;
+	position: relative;
+}
+
+.box-6{
+	text-align: center;
+	padding-bottom:50px;
+	position: relative;
+}
+
+.box-7{
+	text-align: center;
+	padding-bottom:50px;
+	position: relative;
+}
+.box-8{
+	text-align: center;
+	padding-bottom:50px;
+	position: relative;
+}
+
+.footer{
+	font-size:  12px;
+	text-align: center;
+}
